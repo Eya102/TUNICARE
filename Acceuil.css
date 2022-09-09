@@ -1,0 +1,589 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    width:100%;
+    height: 100%;
+    position: relative;
+    background-image: url(home-bg-img.png);
+    background-size: 100% 150%;
+   
+  
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 8%;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0, 0, .1);
+    z-index: 1000;
+    background-color: white;
+    margin: 2px;
+    position: fixed;
+    margin-top: -2px;
+   
+    
+}
+.onglets{
+    margin-right: 20px;
+}
+.onglets a{
+    text-decoration: none;
+    color: rgb(107, 107, 107);
+    margin: 2px;
+    margin-left: 10px;
+}
+.logo{
+    display: flex;
+    margin-left: 20%;
+    
+    
+}
+.logo i{
+    color: #BA68C8;
+    margin-top: 20px;
+    font-size: 30px;
+    
+   
+}
+.logo h1{
+    color: rgb(107, 107, 107);
+    
+    }
+.onglets button{
+    font-size: 13px;
+    width: 60px;
+    height: 25px;
+    border: 2px;
+    border-style: solid;
+    border-color: #c678d4;
+    background-color: #c47dd0;
+    border-radius: 10px;
+    color:white ;
+    cursor: pointer;
+
+}
+.onglets button:hover{
+    color: inherit;
+    background-color: #BA68C8 ;
+    color: white;
+}
+.back{
+    
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+   
+  
+    
+    color: rgb(188, 186, 186);
+    
+   
+}
+
+.safe{
+    margin-top: 15%;
+    margin-right: 15px;
+}
+.safe h1{
+    font-size: 40px;
+}
+.safe a button{
+    font-size: 13px;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: 2px solid;
+    border-color: white;
+    border-radius: 19px;
+    background-color:rgb(161, 161, 161) ;
+    cursor: pointer;
+}
+.safe a button:hover{
+    color: white;
+    background-color: #BA68C8;
+}
+.Doctor img{
+    margin-top: 50px;
+    width: 1000px;
+    height: 600px;
+    border-radius: 100px;
+    
+}
+.Tunisia{
+    width: 30%;
+    height: 30%;
+    margin-top: 400px;
+    margin-left: 40%;
+}
+.Tunisia span{
+    width: 50px;
+    height: 40px;
+    font-size: 35px;
+    background-color: #BA68C8;
+    color: white;
+    
+   
+    box-shadow: 0 .1rem .1rem  #c97bd6;
+    border-radius: 8px;
+    
+}
+.Tunsante{
+    margin-top: 30px;
+    margin-left: -450px;
+    width: 250%;
+    height: 90%;
+ 
+    display: flex;
+    justify-content: space-between;
+   
+}
+.Tunsante .pack{
+    margin: 9px;
+    width: 250px;
+    height: 220px;
+    background-color:  rgb(215, 214, 214);
+    box-shadow: 0 .5rem 1.0rem  #c97bd6;
+    border: 2px;
+    border-style: solid;
+    border-color: transparent ;
+    border-radius: 18px;
+    bottom: 4px;}
+.pack i{
+    margin-top: 10px;
+    font-size: 40px;
+    color:  #c97bd6;
+    margin-left: 100px;
+    
+}
+.pack h3{
+    margin-left: 80px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.pack h2{
+    margin-left: 90px;
+}
+.pack p{
+    margin-top: -9px;
+   
+}
+.us{
+    margin-top: 100px;
+}
+.iAbout{
+    margin-top: 150px;
+    width: 800px;
+    height: 800px;
+    margin-left: -450px;
+}
+.About{
+    margin-top: -150px;
+    width: 180%;
+    height: 50%;
+   
+    
+}
+.help{
+    margin-left: 100px;
+    margin-top: -90%;
+    margin-left: 200px;
+}
+.des .L i{
+    margin-left: 250px;
+    font-size: 35px;
+    color:rgb(185, 185, 185) ;
+    
+   
+}
+ .word p{
+    margin-left: 250px ;
+}
+.servi{
+    margin-top: 550px;
+}
+.servi span{
+    width: 50px;
+    height: 40px;
+    font-size: 30px;
+    border: 2px;
+    border-style: solid;
+    border-radius: 6px;
+    background-color:  #c97bd6;
+    border-color:  #c97bd6;
+}
+
+.services{
+    margin-top: 40px;
+    width: 130%;
+    height: 50%;
+   
+    
+}
+
+.ser{
+    margin-left: -300px;
+    width: 100px;
+    height: 100px;
+    border: 2px;
+    border-style: solid;
+    border-color:transparent;
+    margin-top: -230px;
+    background-color: #e8caed;
+    box-shadow: 0 .5rem 1.0rem #c97bd6;;
+    
+
+}
+.ser:hover{
+    color:white;
+    background-color: #BA68C8;
+
+}
+.ser i{
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 6px;
+}
+.ser p{
+    margin-left: 20px;
+}
+.ser a {
+    text-decoration: none;
+    color:black;
+}
+.ser a:hover{
+    color: white;
+}
+.footer-distributed{
+    margin-top: 200px;
+	background: rgb(222, 220, 220);
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 333%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+    margin-left: -606px;
+
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+.footer-left h3 span {
+    color: #c97bd6;
+    width: 0;
+    height: 0;
+    background-color: rgb(222, 220, 220) ;
+    border-color: transparent;
+    box-shadow: inherit;
+
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span .fifi{
+	color: #c678d4;
+    box-shadow: inherit;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #222;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #c678d4;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+    background-color: transparent;
+    box-shadow: inherit;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 35px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+.main-container {
+  margin-top: 250px;
+  width: 100%;
+ 
+  
+}
+
+
+/* CARDS */
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  width: 250%;
+  margin-left: -500px;
+  margin-top: 600px;
+}
+
+.card {
+  margin: 20px;
+  padding: 10px;
+  width: 500px;
+  min-height: 200px;
+  display: grid;
+  grid-template-rows: 20px 50px 1fr 50px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+  transform: scale(1.01);
+}
+
+.card__link,
+.card__exit,
+.card__icon {
+  position: relative;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.card__link::after {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  content: "";
+  width: 0%;
+  height: 3px;
+  background-color: rgba(255, 255, 255, 0.6);
+  transition: all 0.5s;
+}
+
+.card__link:hover::after {
+  width: 100%;
+}
+
+.card__exit {
+  grid-row: 1/2;
+  justify-self: end;
+}
+
+.card__icon {
+  grid-row: 2/3;
+  font-size: 30px;
+}
+
+.card__title {
+  grid-row: 3/4;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.card__apply {
+  grid-row: 4/5;
+  align-self: center;
+}
+
+/* CARD BACKGROUNDS */
+
+.card-1 {
+    background: radial-gradient(#f588d8, #c0a3e5);;
+}
+
+.card-2 {
+    background: radial-gradient(#f588d8, #c0a3e5);
+}
+
+.card-3 {
+  background: radial-gradient(#f588d8, #c0a3e5);
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 1600px) {
+  .cards {
+    justify-content: center;
+  }
+}
+
+.card__icon img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border:4px solid;
+    border-color: white;
+    margin-left: 110px;
+    margin-top: 5px;
+    margin-top: -30px;
+}
+.card__exit{
+    margin-top: 130px;
+    
+}
+.card__title{
+    margin:auto;
+    
+}
+.card__apply {
+    margin: auto;
+  
+}
+.card__apply a{
+    color: white;
+    font-size: 20px;
+    margin: 5px;
+}
+.team{
+    transform: translateY(35rem);
+}
+
+
+
